@@ -12,6 +12,6 @@ class Home extends BaseController
             'title' => 'Home da área restrita',
             'subtitle' => 'Bem vindo ao sistema de gerenciamento de delivery',
         ];
-        return view('admin/home', $data);
+        return view('Admin/Home/index', $data);
     }
 }

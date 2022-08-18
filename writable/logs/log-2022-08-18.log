@@ -22,3 +22,33 @@ in APPPATH\Views\welcome_message.php on line 227.
  8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
  9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
 10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-18 18:32:03 --> Invalid file: admin/home.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/home.php')
+ 2 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('admin/home', [], true)
+ 3 APPPATH\Controllers\Admin\Home.php(15): view('admin/home', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-18 18:33:04 --> Invalid file: Admin/Home.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Admin/Home.php')
+ 2 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('Admin/Home', [], true)
+ 3 APPPATH\Controllers\Admin\Home.php(15): view('Admin/Home', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-18 18:34:29 --> Invalid file: admin/home.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/home.php')
+ 2 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('admin/home', [], true)
+ 3 APPPATH\Controllers\Admin\Home.php(15): view('admin/home', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
