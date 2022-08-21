@@ -1,0 +1,23 @@
+CRITICAL - 2022-08-21 06:23:22 --> Undefined variable: titulo
+in APPPATH\Views\Admin\Home\index.php on line 16.
+ 1 APPPATH\Views\Admin\Home\index.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: titulo', 'APPPATH\\Views\\Admin\\Home\\index.php', 16, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Admin\\Home\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('Admin/Home/index', [], true)
+ 5 APPPATH\Controllers\Admin\Home.php(15): view('Admin/Home/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-21 06:23:53 --> Invalid file: Admin/layout/principal.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Admin/layout/principal.php')
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('Admin/layout/principal', [], true)
+ 3 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('Admin/Home/index', [], true)
+ 4 APPPATH\Controllers\Admin\Home.php(15): view('Admin/Home/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
